@@ -1,0 +1,22 @@
+{
+  "name": "HackMichiana.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HackMichiana/HackMichiana.github.io.git"
+  },
+  "author": "Nathan Smith <nathanrandal@gmail.com>",
+  "license": "Copyright 2014 Hack Michiana",
+  "bugs": {
+    "url": "https://github.com/HackMichiana/HackMichiana.github.io/issues"
+  },
+  "homepage": "https://github.com/HackMichiana/HackMichiana.github.io",
+  "dependencies": {
+    "less": "^2.1.1"
+  }
+}
