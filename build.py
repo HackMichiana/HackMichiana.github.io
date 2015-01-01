@@ -74,8 +74,8 @@ def build():
                         raise
 
     # Build LESS
-    # print 'Compiling LESS to CSS'
-    # call(['node', 'node_modules/.bin/lessc', 'static/less/style.less', 'static/css/style.css'])
+    print 'Compiling LESS to CSS'
+    call(['node', 'node_modules/.bin/lessc', 'static/less/style.less', 'static/css/style.css'])
 
     # copy static files
     print 'Copying static files'

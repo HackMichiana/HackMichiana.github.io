@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/HackMichiana/HackMichiana.github.io",
   "dependencies": {
-    "less": "^2.1.1"
+    "less": "^2.1.2"
   }
 }
