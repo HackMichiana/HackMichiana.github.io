@@ -10,6 +10,10 @@ Hack Michiana (Future) Website
     bower install
     ./build.py
 
+    cd build/
+    python -m SimpleHTTPServer
+    open index.html
+
 Do stuff...
 
     ghp-import -npb master build/
