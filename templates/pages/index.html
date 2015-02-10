@@ -7,17 +7,19 @@
   <link rel="stylesheet" href="{{ static }}css/style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#sidebar_nav">
   <div class="container">
-    <h1>Hi</h1>
+    <div id="top"></div>
+    <div id="header">
+      <img class="img-responsive" src="{{media}}img/Hack-Michiana-Logo_LG.png">
+    </div>
 
     <div class="row">
+      <div class="col-md-3">
+        {% include "components/sidebar.html" %}
+      </div>
       <div class="col-md-9">
         {% include "components/home-content.html" %}
-      </div>
-      <div class="col-md-3">
-        <!-- sidebar -->
-        &nbsp;
       </div>
     </div>
 
@@ -33,6 +35,7 @@
 
   <script src="{{ bower }}jquery/dist/jquery.min.js"></script>
   <script src="{{ bower }}bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="{{static}}js/site.js"></script>
 </body>
 
 </html>

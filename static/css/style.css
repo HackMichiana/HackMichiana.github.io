@@ -10,3 +10,12 @@
 #event_info .partners > div {
   height: 100px;
 }
+#sidebar_nav a {
+  border-right: 1px solid transparent;
+}
+#sidebar_nav .active {
+  border-right: 1px solid red;
+}
+#sidebar_nav.affix {
+  top: 10px;
+}
