@@ -1,13 +1,13 @@
-#event_info .partners a {
+#upcoming_events .partners a {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-#event_info .partners a img {
+#upcoming_events .partners a img {
   vertical-align: middle;
   width: 100%;
 }
-#event_info .partners > div {
+#upcoming_events .partners > div {
   height: 100px;
 }
 #sidebar_nav a {
