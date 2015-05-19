@@ -49,6 +49,44 @@
       <div class="col-md-9">
         <div class="row">
   <div class="col-md-4">
+    <h1>National Day of Hacking</h1>
+  </div>
+  <div class="col-md-8" style="margin-top:8px">
+    <div style="float:left" class="text-center">
+      <span id="ndoch_days" style="font-size:50px"></span>
+      <br />Days</div>
+    <div style="float:left; font-size:50px">:</div>
+    <div style="float:left" class="text-center">
+      <span id="ndoch_hours" style="font-size:50px"></span>
+      <br />Hours</div>
+    <div style="float:left; font-size:50px">:</div>
+    <div style="float:left" class="text-center">
+      <span id="ndoch_minutes" style="font-size:50px"></span>
+      <br />Minutes</div>
+    <div style="float:left; font-size:50px">:</div>
+    <div style="float:left" class="text-center">
+      <span id="ndoch_seconds" style="font-size:50px"></span>
+      <br />Seconds</div>
+  </div>
+</div>
+
+<script>
+  var d = new Date(2015, 5, 6, 9, 0, 0, 0);
+
+  setInterval(function() {
+    var countdown = new Date(new Date(2015, 5, 6, 9, 0, 0, 0) - new Date());
+    var days = countdown.getDate();
+    var hours = countdown.getHours();
+    var minutes = countdown.getMinutes();
+    var seconds = countdown.getSeconds();
+    $("#ndoch_days").text(('0'+days).substr(-2,2));
+    $("#ndoch_hours").text(('0'+hours).substr(-2,2));
+    $("#ndoch_minutes").text(('0'+minutes).substr(-2,2));
+    $("#ndoch_seconds").text(('0'+seconds).substr(-2,2));
+  }, 200);
+</script>
+        <div class="row">
+  <div class="col-md-4">
     <h3>Civic Hacking?</h3>
     <p>
       Civic Hacking describes the nascent community of civic hackers who are building
