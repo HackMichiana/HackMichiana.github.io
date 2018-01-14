@@ -64,8 +64,8 @@ def build():
                         print 'Rendering %s' % os.path.join( *(sroot[1:]+[template]) )
                         f.write(
                             env.get_template(
-                                os.path.join(
-                                    *(sroot[1:]+[template])
+                                '/'.join(
+                                    sroot[1:]+[template]
                                 )
                             ).render(context)
                         )
