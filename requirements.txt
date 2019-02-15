@@ -1,5 +1,0 @@
-Jinja2==2.7.3
-MarkupSafe==0.23
-ghp-import==0.4.1
-nodeenv==0.11.1
-wsgiref==0.1.2
